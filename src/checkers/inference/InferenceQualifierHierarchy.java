@@ -34,8 +34,8 @@ public class InferenceQualifierHierarchy extends MultiGraphQualifierHierarchy {
     private final AnnotationMirror unqualified;
     private final AnnotationMirror varAnnot;
 
-    private final SlotManager slotMgr;
-    private final ConstraintManager constraintMgr;
+    protected final SlotManager slotMgr;
+    protected final ConstraintManager constraintMgr;
 
     public InferenceQualifierHierarchy(final MultiGraphFactory multiGraphFactory) {
         super(multiGraphFactory);
